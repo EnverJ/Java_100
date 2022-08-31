@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class FahrenheitToCelsius_5 {
     public static void main(String[] args) {
+        // this for java 100
         float temperature;
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter temperature in Fahrenheit ");
