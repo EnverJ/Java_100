@@ -15,7 +15,7 @@ public class InsertPrepard_64 {
             stmt.setInt(1, 101); // 1. specifies the first parameter in the query
             stmt.setString(2, "Jungle");
             int i = stmt.executeUpdate();
-            System.out.println(i + " record iserted");
+            System.out.println(i + " record inserted");
             con.close();
         } catch (ClassNotFoundException e) {
             System.out.println(e);
