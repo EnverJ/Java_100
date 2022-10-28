@@ -10,6 +10,7 @@ public class ReadDataStream_71 {
 
             int i=fi.read();
             System.out.println((char) i);
+
             fi.close();
 
         } catch (Exception e) {
